@@ -75,3 +75,20 @@ select:hover{
 .sec-forminput input[type='text']:focus{
   outline: none;
 }
+@media screen and (max-width: 1250px){
+    .first-forminput div input[type='text']{
+        font-size: 9px;
+    }
+    .sec-forminput div input{
+        font-size: 8px;
+    }
+    .sec-forminput > input {
+        font-size:8px;
+    }
+    .sec-forminput > input {
+        padding: 3px;
+    }
+    .sec-forminput select {
+        font-size: 9px;
+    }
+}
