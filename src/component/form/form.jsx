@@ -11,10 +11,10 @@ export default function Form() {
            <div className='section'>
            <h3>Select a service</h3>
                <div className='freight'>
-                   <div className='air'> Air Freight <span><fa ><FaFighterJet/></fa></span></div>
-                   <div className='ship'>Sea Freight <span><fa><FaShip/></fa></span></div>
-                   <div className='truck'>Inland <br/> (Truck & Barge) <span><fa><FaTruck/></fa></span></div>
-                   <div className='user'>Custom Clearance <span><fa><FaUserAlt/></fa></span></div>
+                   <div className='air'><h3>Air Freight</h3> <span><img src="https://img.icons8.com/material-sharp/24/ffffff/airport.png"/></span></div>
+                   <div className='ship'><h3>Sea Freight </h3><span><fa><FaShip/></fa></span></div>
+                   <div className='truck'><h3>Inland<br/>(Truck & Barge)</h3> <span><fa><FaTruck/></fa></span></div>
+                   <div className='user'><h3>Custom Clearance </h3><span><fa className='usericon'><FaUserAlt/></fa></span></div>
            </div>
            </div>
         </div>

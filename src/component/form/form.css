@@ -4,7 +4,7 @@
 .section{
     background-color:#fafcfc;
     padding: 20px;
-    height: 30vh;
+    height: 35vh;
 }
 .first-form{
     padding: 10px;
@@ -29,12 +29,18 @@
 border: 1px solid #bfc5c7;
   margin: 10px;
   flex: 1;
-  padding: 10px;
+  padding-left: 15px;
+  padding:3px;
   color:#bfc5c7;
 }
  fa {
-    font-size:30px;
-    height: auto;
+    font-size:4rem;
+}
+.usericon{
+    font-size:4rem;
+}
+.air span img{
+    width: 80px;
 }
 .air{
     display: flex;
@@ -51,4 +57,24 @@ border: 1px solid #bfc5c7;
 .user{
     display: flex;
     justify-content: space-between;
+}
+.freight div h3{
+    padding:10px;
+}
+@media screen and (max-width: 1250px){
+    fa {
+        font-size:3rem;
+    }
+    .freight > div{
+        padding-left: 0;
+    }
+    .usericon{
+        font-size:2rem;
+    }
+    .freight > div h3{
+        padding-left: 0;
+    }
+    .section h3{
+        padding-bottom: 0;
+    }
 }

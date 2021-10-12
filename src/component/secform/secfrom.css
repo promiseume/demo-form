@@ -25,25 +25,25 @@
 .sec-cargosection{
     padding-top: 20px;
     display: flex;
-    padding-right:100px;
+   
 }
 .sec-cargosection > div{
     padding:8px;
 }
 .sec-cargosection input[type=number]{
-    display: flex;
     width: 100%;
-    padding: 15px 12px;
+    padding: 15px 30px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    background-color: #fafcfc;
   }
   .sec-cargosection label{
       position:absolute;
-      padding-right: 7px;
       z-index: 1;
+      background-color: #ffff;
   }
   .sec-cargosection input[type=number]:focus{
       outline: none;
@@ -53,7 +53,7 @@ input[type ='number']::placeholder{
     text-align:right;
 }
 .togg-form{
-    display: flex;
+    font-size: 16px;
 }
 .chemicals{
     padding: 2px;

@@ -4,6 +4,9 @@
     padding-bottom:30px ;
     margin-bottom: 20px;
 }
+.font-circle{
+    padding-left: 20px;
+}
 .sec-forminput{
     display: flex;
     flex-wrap: nowrap;

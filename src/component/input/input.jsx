@@ -1,9 +1,10 @@
 import React from 'react'
-import { FaMapMarkerAlt,FaCalendar } from 'react-icons/fa'
+import { FaMapMarkerAlt,FaCalendar,FaExclamationCircle } from 'react-icons/fa'
 import './input.css'
 export default function Input() {
     return (
         <div className='form-input'>
+            <div className='font-circle'><FaExclamationCircle/></div>
         <div className='first-forminput'>
         <div style={{flexGrow: "3"}} ><input type='text' placeholder='Import'></input></div>
         <div style={{flexGrow: "10"}}><FaMapMarkerAlt/><input  type='text' placeholder=' From city or port'></input></div>
