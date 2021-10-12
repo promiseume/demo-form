@@ -73,7 +73,7 @@
 }
 @media screen and (max-width: 1250px){
     fa {
-        font-size:3rem;
+        font-size:3.rem;
     }
     .freight > div{
         padding-left: 0;
@@ -91,6 +91,8 @@
     .air span img {
         width: 60px;
     }
-
+    .freight .air h3, .freight .truck h3, .freight .ship h3, .freight .user h3 {
+        padding: 8px;
+    }
     
 }
