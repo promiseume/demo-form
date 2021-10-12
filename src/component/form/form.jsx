@@ -12,9 +12,9 @@ export default function Form() {
            <h3>Select a service</h3>
                <div className='freight'>
                    <div className='air'><h3>Air Freight</h3> <span><img src="https://img.icons8.com/material-sharp/24/ffffff/airport.png"/></span></div>
-                   <div className='ship'><h3>Sea Freight </h3><span><fa><FaShip/></fa></span></div>
-                   <div className='truck'><h3>Inland<br/>(Truck & Barge)</h3> <span><fa><FaTruck/></fa></span></div>
-                   <div className='user'><h3>Custom Clearance </h3><span><fa className='usericon'><FaUserAlt/></fa></span></div>
+                   <div className='ship'><h3>Sea Freight </h3><span className='spans'><fa><FaShip/></fa></span></div>
+                   <div className='truck'><h3>Inland<br/>(Truck & Barge)</h3> <span className='spans'><fa><FaTruck/></fa></span></div>
+                   <div className='user'><h3>Custom Clearance </h3><span className='spans'><fa className='usericon'><FaUserAlt/></fa></span></div>
            </div>
            </div>
         </div>

@@ -3,6 +3,9 @@
     padding-top: 10px;
     padding: 10px;
 }
+.last-form h3{
+    padding: 19px 0px 30px 30px;
+}
 .container{
     display: flex;
     justify-content: space-between;

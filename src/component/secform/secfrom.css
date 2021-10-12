@@ -29,6 +29,7 @@
 }
 .sec-cargosection > div{
     padding:8px;
+    z-index: 1;
 }
 .sec-cargosection input[type=number]{
     width: 100%;
@@ -58,4 +59,7 @@ input[type ='number']::placeholder{
 }
 .chemicals{
     padding: 2px;
+}
+.weight-class input{
+    border-radius: 3px;
 }

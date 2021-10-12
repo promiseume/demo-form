@@ -22,15 +22,21 @@
 .freight .air{
     background-color:#4248f5 ;
 }
+.freight .air h3,.freight .truck h3,.freight .ship h3,.freight .user h3{
+    padding: 22px;
+    font-size: 17px;
+}
 
 .freight > div{
    width: 100px;
-border: 1px solid #bfc5c7;
+ border: 1px solid #bfc5c7;
   margin: 10px;
   flex: 1;
-  padding-left: 15px;
-  padding:3px;
+  height: 15vh;
+  padding-top: 10px;
+  box-sizing: border-box;
   color:#bfc5c7;
+  overflow: hidden;
 }
  fa {
     font-size:4rem;
@@ -38,11 +44,10 @@ border: 1px solid #bfc5c7;
     margin: none;
     
 }
-.usericon{
-    font-size:4rem;
-}
 .air span img{
     width: 80px;
+    height: 16vh;
+  padding-top: 10px;
 }
 .air{
     display: flex;
@@ -55,6 +60,9 @@ border: 1px solid #bfc5c7;
 .ship{
     display: flex;
     justify-content: space-between;
+}
+.spans{
+    padding-top: 25px;
 }
 .user{
     display: flex;
@@ -70,9 +78,7 @@ border: 1px solid #bfc5c7;
     .freight > div{
         padding-left: 0;
     }
-    .usericon{
-        font-size:2rem;
-    }
+   
     .freight > div h3{
         padding-left: 0;
     }

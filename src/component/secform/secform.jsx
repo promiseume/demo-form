@@ -4,7 +4,7 @@ export default function Secform() {
   return (
       <div className='third-section'>
        <section className='cargo-header'>
-           <div><h4>Cargo Details</h4></div>
+           <div><h3>Cargo Details</h3></div>
            <div className='togg-form'>
                <div className='togglerform'>
               <label class="switch">
@@ -27,7 +27,7 @@ export default function Secform() {
       <label for="volume">Total Volume</label>
     <input type="number" id="volume" name="number" placeholder="cbm"/>
     </div>
-    <div>
+    <div className='weight-class'>
     <label for="weight">Total Weight</label>
     <input type="number" id="weight" name="weight" placeholder="kg"/>
     </div>
