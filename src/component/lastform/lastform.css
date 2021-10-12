@@ -20,4 +20,14 @@
 .new-container p{
     padding-top: 3px;
 }
-
+@media screen and (max-width: 1250px){
+    .new-container{
+        padding-left: 2px;
+    }
+    .new-container h4{
+        font-size: 12px;
+    }
+    .new-container p{
+        font-size: 8px;
+    }
+}

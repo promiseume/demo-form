@@ -85,4 +85,10 @@
     .section h3{
         padding-bottom: 0;
     }
+    .freight .air h3, .freight .truck h3, .freight .ship h3, .freight .user h3 {
+        font-size: 8px;
+    }
+    .air span img {
+        width: 60px;}
+    
 }
