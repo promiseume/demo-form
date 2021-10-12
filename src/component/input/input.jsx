@@ -11,7 +11,7 @@ export default function Input() {
         <div style={{flexGrow: "10"}}><FaMapMarkerAlt/><input  type='text' placeholder='To City or port'></input></div> 
             </div>
             <div className='sec-forminput'>
-            <div><span><FaCalendar/></span><input type='text' placeholder='Ready Date'></input></div>
+            <div><span><FaCalendar/> </span><input type='text' placeholder='Ready Date'></input></div>
             <select className='select'>
                 <option disabled selected>Incoterms</option>
                 <option>cargo</option>

@@ -1,25 +1,20 @@
 .last-form{
     background-color: #fafcfc;
     padding-top: 10px;
-    padding: 5px;
-    height: 50vh;
-}
-.last-form h3{
     padding: 10px;
 }
-.form-section{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 100px 100px;
+.container{
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
 }
-.toggle-form{
+.container-child{
     display: flex;
 }
-.toggle-form p{
-    padding-top:5px;
+.new-container {
+    padding-left: 40px;
 }
-.form-child{
-   flex: 0.7;
+.new-container p{
+    padding-top: 3px;
 }
 
