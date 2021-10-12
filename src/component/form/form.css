@@ -1,0 +1,54 @@
+.form-body{
+    padding-bottom: 30px;
+}
+.section{
+    background-color:#fafcfc;
+    padding: 20px;
+    height: 30vh;
+}
+.first-form{
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.first-form h3{
+    padding-bottom: 10px;
+}
+.section h3{
+   padding-bottom: 30px;
+}
+.freight{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.freight .air{
+    background-color:#4248f5 ;
+}
+
+.freight > div{
+   width: 100px;
+border: 1px solid #bfc5c7;
+  margin: 10px;
+  flex: 1;
+  padding: 10px;
+  color:#bfc5c7;
+}
+ fa {
+    font-size:30px;
+    height: auto;
+}
+.air{
+    display: flex;
+    justify-content: space-between;
+}
+.truck{
+    display: flex;
+    justify-content: space-between;
+}
+.ship{
+    display: flex;
+    justify-content: space-between;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+}

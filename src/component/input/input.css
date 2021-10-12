@@ -1,0 +1,74 @@
+.form-input{
+    background-color:#fafcfc ;
+    padding-top: 30px;
+    padding-bottom:30px ;
+    margin-bottom: 20px;
+}
+.sec-forminput{
+    display: flex;
+    flex-wrap: nowrap;
+   padding:15px;
+   margin: 5px;
+}
+.first-forminput{
+    display: flex;
+    flex-wrap: nowrap;
+    padding:10px;
+}
+.first-forminput > div{
+    width: 100px;
+    border: none;
+    margin: 10px;
+   flex: 1;
+   padding: 20px;
+   background-color:#bfc5c7 ; 
+}
+.first-forminput div input[type='text']{
+    font-size: 16px;
+    border: none;
+   background-color: transparent;
+   outline: none;
+}
+.sec-forminput > input{
+    width: 100px;
+    border: none;
+    margin: 10px;
+   flex: 1;
+   padding: 20px;
+   background-color:#bfc5c7 ;
+   font-size: 16px;
+}
+.sec-forminput  div input{
+    border: none;
+   background-color: transparent;
+   outline: none;
+   font-size: 16px;
+}
+.sec-forminput > div{
+    width: 100px;
+    border: none;
+    margin: 10px;
+   flex: 1;
+   padding: 20px;
+   background-color:#bfc5c7 ;
+}
+.sec-forminput select{
+    width: 100px;
+    margin: 10px;
+    border: none;
+   flex: 1;
+   font-size: 16px;
+   padding: 20px;
+   cursor: pointer;
+   background-color:#bfc5c7 ;
+}
+.select:focus,
+select:hover{
+    outline: none;
+}
+.select option{
+    background-color: #bfc5c7;
+}
+.sec-forminput input[type='text']:focus{
+  outline: none;
+}

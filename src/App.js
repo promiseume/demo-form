@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from './component/nav/nav'
+import Form from './component/form/form'
+import Input from './component/input/input'
+import Secform from './component/secform/secform'
+import Lastform from './component/lastform/lastform'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Nav/>
+      <div className='sections'>
+      <Form/>
+      <Input/>
+      <Secform/>
+      <Lastform/>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,60 @@
+.cargo-header{
+    display: flex;
+    justify-content: space-between;
+}
+.cargo-header > div{
+    padding: 10px;
+}
+.third-section{
+    padding-top: 30px;
+    background-color:#fafcfc;
+   padding: 20px;
+   margin-bottom: 18px;
+}
+.cargo-section {
+    padding: 10px;
+}
+.cargo-section input[type='number']:focus{
+    outline: none;
+}
+.cargo-section > input{
+    padding: 10px 15px;
+    margin: 0px;
+    border-radius: 0%;
+}
+.sec-cargosection{
+    padding-top: 20px;
+    display: flex;
+    padding-right:100px;
+}
+.sec-cargosection > div{
+    padding:8px;
+}
+.sec-cargosection input[type=number]{
+    display: flex;
+    width: 100%;
+    padding: 15px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .sec-cargosection label{
+      position:absolute;
+      padding-right: 7px;
+      z-index: 1;
+  }
+  .sec-cargosection input[type=number]:focus{
+      outline: none;
+  }
+  
+input[type ='number']::placeholder{
+    text-align:right;
+}
+.togg-form{
+    display: flex;
+}
+.chemicals{
+    padding: 2px;
+}
