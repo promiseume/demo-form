@@ -4,7 +4,6 @@
 .section{
     background-color:#fafcfc;
     padding: 20px;
-    height: 35vh;
 }
 .first-form{
     padding: 10px;
@@ -35,6 +34,9 @@ border: 1px solid #bfc5c7;
 }
  fa {
     font-size:4rem;
+    border: none;
+    margin: none;
+    
 }
 .usericon{
     font-size:4rem;
