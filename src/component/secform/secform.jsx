@@ -13,7 +13,7 @@ export default function Secform() {
               </label>
               </div>
               <div className='chemicals'>
-            <h4> Dangerous Cargo (ex. Chemicals,Battery)</h4>
+            <h3> Dangerous Cargo (ex. Chemicals,Battery)</h3>
             </div>
             </div>
        </section>

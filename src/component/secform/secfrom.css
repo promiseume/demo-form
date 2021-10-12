@@ -67,4 +67,11 @@ input[type ='number']::placeholder{
    .cargo-section > input{
        padding: 4px 2px;
    }
+   .cargo-header h3{
+       font-size: 11px;
+       font-weight: bold;
+   }
+   .third-section{
+       padding: 0px;
+   }
 }
